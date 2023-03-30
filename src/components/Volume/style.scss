@@ -1,0 +1,31 @@
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%; 
+    cursor: pointer;
+    background-color: #333; 
+    color: black;  
+    height: 0.5rem; 
+    writing-mode: horizontal-tb !important;
+    -webkit-rtl-ordering: logical;  
+    box-shadow: 1px 1px 2px 0px black;       
+
+}
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 10px;
+    height: 25px;
+    border-radius: none;
+    background: blue;
+    border: none;
+    box-shadow: 1px 1px 3px 0 black; 
+}
+
+input[type="range"]::-ms-range-thumb {
+    width: 10px;
+    height: 25px;
+    border-radius: none;
+    border: none;
+    background: blue;
+    box-shadow: 1px 1px 3px 0 black; 
+}

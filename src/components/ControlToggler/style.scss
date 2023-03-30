@@ -1,0 +1,35 @@
+.control {    
+    width: 100%;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    // font-weight: bolder;
+
+    p {
+        font-size: 1rem; 
+    }
+
+    .select {
+        background-color: black;
+        padding: 1px; 
+        width: 50px; 
+        height: 20px; 
+        position: relative; 
+    
+        .inner {
+            width: 23px;
+            height: 15px; 
+            background-color: blue;
+            cursor: pointer;
+            position: absolute;
+            left: 3px; 
+            top: 2px; 
+        }
+    
+        .inner.active {
+            left: 23px; 
+        }
+    }
+}

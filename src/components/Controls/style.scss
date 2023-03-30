@@ -1,0 +1,18 @@
+.controls-container {
+    width: 100%;
+    flex: 1;
+    gap: 1.5rem;
+    max-width: 240px; 
+    max-height: 272px;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+@media only screen and (max-width: 450px) {
+    .controls-container {
+        gap: 1.2rem;
+    }
+}

@@ -1,0 +1,14 @@
+.pad-bank {
+    width: 100%; 
+    flex: 1;
+    display: flex; 
+    flex-wrap: wrap;   
+    gap: 0.625rem; 
+}
+
+
+@media only screen and (max-width: 290px) {
+    .pad-bank{
+        gap: 0.6rem; 
+    }
+}

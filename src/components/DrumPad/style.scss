@@ -1,0 +1,50 @@
+.drum-pad {
+    background-color: gray;
+    border-radius: 5px; 
+    width: 100px; 
+    height: 80px; 
+    cursor: pointer; 
+    box-shadow: 3px 3px 5px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease; 
+
+    &:active {
+        background-color: orange;
+    }
+
+    audio {
+        display: none; 
+        width: 30px; 
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width: 670px) {  
+    .drum-pad{
+        flex: 1;
+        min-width: 30%;
+        height: auto; 
+        min-height: 40px; 
+    }
+}
+
+
+
+@media only screen and (max-width: 450px) { 
+    .drum-pad {
+        width: 40px; 
+        height: auto; 
+        min-height: 30px;
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    .drum-pad {
+        min-height: none;
+        max-width: none;
+        width: 40px; 
+        height: 25px; 
+    }
+} 
