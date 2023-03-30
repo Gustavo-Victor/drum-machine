@@ -32,8 +32,7 @@ Clique [aqui](https://hmudtu-5173.csb.app/) para ver o projeto no [CodeSandBox](
 
 ## 🎨 Layout
 
-<img src="./src/assets/images/screenshots/desktop.png" width="550px" height="auto" alt="Drum Machine - Desktop" title="Drum Machine - Desktop" >
-<img src="./src/assets/images/screenshots/mobile.png" width="130px" alt="Drum Machine - Mobile" title="Drum Machine - Mobile" >
+<img src="./src/assets/images/screenshots/desktop.png" width="550px" height="auto" alt="Drum Machine - Desktop" title="Drum Machine - Desktop" > <img src="./src/assets/images/screenshots/mobile.png" width="130px" alt="Drum Machine - Mobile" title="Drum Machine - Mobile" >
 
 ## 🛠 Tecnologias e Ferramentas
 
