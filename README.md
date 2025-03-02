@@ -27,7 +27,7 @@
 
 Este projeto é uma aplicação React que simula uma bateria eletrônica, permitindo ao usuário reproduzir sons, controlar o volume, desativar sons, etc. O projeto faz parte de um [desafio](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-drum-machine) da [freeCodeCamp](https://www.freecodecamp.org/) do curso de bibliotecas de desenvolvimento Front-end. O intuito do projeto é treinar as habilidades aprendizas durante curso através desse desafio real. 
 
-Clique [aqui]([https://hmudtu-5173.csb.app/](https://drum-machine-sage-five.vercel.app/) para ver o projeto no site da [Vercel](https://vercel.com). 
+Clique [aqui](https://drum-machine-sage-five.vercel.app/) para ver o projeto no site da [Vercel](https://vercel.com). 
 
 
 ## 🎨 Layout
